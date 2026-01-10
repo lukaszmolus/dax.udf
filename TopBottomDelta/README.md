@@ -7,18 +7,21 @@
 
 Author: [Łukasz Molus](linkedin.com/in/łukasz-molus-386265264)
 
+
 ## Overview
 
-This UDF generates the concatenated labels and values for Top and Bottom Performers, with delta value.
+> This UDF generates the concatenated labels and values for Top and Bottom Performers, with delta value.
 
-The DAX code is well optimized - the first variable provides (table) results, that are computed only once and used in other parts of the function.
+> The DAX code is well optimized - the first variable provides (table) results, that are computed only once and used in other parts of the function.
 
-Yuu can use this function in Card Visuals, Tooltips, Tables, Subtitles (below you can see some usage examples).
+> Yuu can use this function in Card Visuals, Tooltips, Tables, Subtitles (below you can see some usage examples).
+
 
 ### Variables
 *   **ColumnReference:** - ANYREF EXPR - Type column name to evaluate (it will be also be used as labels);
 *   **MeasureToEvaluate:** - ANYREF EXPR - Type measure that will be evaluated against column reference;
 *   **FormatTypeForDeltaValue:** - STRING VAL - In what format results for delta sholud be displayed eg. "0.0%", "#,##0,.0K", etc.
+
 
 ## Usage example (Contoso 10M Model)
 ```dax
