@@ -25,7 +25,7 @@ Author: [Łukasz Molus](linkedin.com/in/łukasz-molus-386265264)
 *   **MeasureToEvaluate:** - ANYREF EXPR - Type measure that will be evaluated against column reference;
 *   **FormatTypeForDeltaValue:** - STRING VAL - In what format results for delta sholud be displayed eg. "0.0%", "#,##0,.0K", etc.
 
-ℹ️ You can also chenge the culture of format in the funcrion code.
+ℹ️ You can also change the culture of format in the funcrion code.
 
 ## Usage example (Contoso 10M Model)
 
