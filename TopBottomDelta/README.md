@@ -1,4 +1,4 @@
-# About LM.TopBottomDelta
+# About lmolus.TopBottomDelta
 
 💡TopBottomDelta function will allow you to show multiple insights using a single DAX measure. 
 
@@ -30,7 +30,7 @@ Author: [Łukasz Molus](linkedin.com/in/łukasz-molus-386265264)
 ## Usage example (Contoso 10M Model)
 
 ```dax
-Measure = TopBottomDelta ( 
+Measure = lmolus.TopBottomDelta ( 
     'Product'[Brand],          -- ColumnReference
     [Margin %],                -- MeasureToEvaluate
     "0.0%"                     -- FormatTypeForDeltaValue
