@@ -19,13 +19,16 @@ Author: [Łukasz Molus](linkedin.com/in/łukasz-molus-386265264)
 
 ---
 
-### Variables
+### Parameters
+
 *   **ColumnReference:** - ANYREF EXPR - Type column name to evaluate (it will be also be used as labels);
 *   **MeasureToEvaluate:** - ANYREF EXPR - Type measure that will be evaluated against column reference;
 *   **FormatTypeForDeltaValue:** - STRING VAL - In what format results for delta sholud be displayed eg. "0.0%", "#,##0,.0K", etc.
 
+ℹ️ You can also chenge the culture of format in the funcrion code.
 
 ## Usage example (Contoso 10M Model)
+
 ```dax
 Measure = TopBottomDelta ( 
     'Product'[Brand],          -- ColumnReference
