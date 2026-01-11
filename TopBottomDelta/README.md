@@ -7,6 +7,7 @@
 
 Author: [Łukasz Molus](linkedin.com/in/łukasz-molus-386265264)
 
+---
 
 ## Overview
 
@@ -16,6 +17,7 @@ Author: [Łukasz Molus](linkedin.com/in/łukasz-molus-386265264)
 
 > Yuu can use this function in Card Visuals, Tooltips, Tables, Subtitles (below you can see some usage examples).
 
+---
 
 ### Variables
 *   **ColumnReference:** - ANYREF EXPR - Type column name to evaluate (it will be also be used as labels);
@@ -45,6 +47,7 @@ Measure = TopBottomDelta (
 
 <img width="700" height="517" alt="image" src="https://raw.githubusercontent.com/lukaszmolus/dax.udf/main/TopBottomDelta/Images/top_bottom_delta_table.png" /></br>
 
+---
 
 ## License
 
